@@ -2464,8 +2464,9 @@ input::-ms-clear {
 .banner-bg {
   padding: 7em 0;
   position: relative;
-  background: #f5f5f5 url(../images/banners/banner-bg.jpg) repeat fixed center center;
-  background-size: cover; }
+  background: #f5f5f5 url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.18169-9/15380508_869609186507706_5141917442375259788_n.png?_nc_cat=103&ccb=1-7&_nc_sid=19026a&_nc_ohc=6ckN9nUzP-QAX9nsWju&_nc_ht=scontent-mxp1-1.xx&oh=00_AfAqKm7RRykK72tZI6K9eDmlvm0KQCOYo4FygC5R5iI6xQ&oe=63C01B0F) no-repeat fixed center center;
+ 
+  background-size: contain; }
   .banner-bg__wrap {
     text-align: center; }
   .banner-bg__text-block {
@@ -5678,15 +5679,16 @@ input::-ms-clear {
   height: 34px;
   display: inline-block;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: #382E2E;
   font-size: 12px;
   font-weight: 600;
   line-height: 34px;
   text-align: center;
   cursor: pointer;
+  display: none;
   color: #ffffff; }
 
 .mega-menu-list > ul > li > a {
@@ -5741,7 +5743,8 @@ input::-ms-clear {
     line-height: 34px;
     text-align: center;
     cursor: pointer;
-    color: #ffffff; }
+    color: #ffffff;
+  display:none; }
   .mega-menu {
     display: none; }
   .mega-menu-list {
@@ -6415,3 +6418,22 @@ input::-ms-clear {
 #js-product-detail-modal-thumbnail:hover .pt-prev, #js-product-detail-modal-thumbnail:hover .pt-next {
   opacity: .8; }
 
+.main-logo  img {
+    display: block;
+    width: 98px;
+  }
+
+
+.hero-slide--1 {
+  background-image: url("https://www.pompeitime.com/wp-content/uploads/2016/07/Slide-2.png") !important;
+}
+
+
+
+.hero-slide {
+    background: 100%/cover no-repeat;
+}
+
+.text-right {
+  text-align: right;
+}

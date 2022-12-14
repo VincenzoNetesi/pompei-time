@@ -5674,6 +5674,7 @@ input::-ms-clear {
 
 /* Extension Mega Menu */
 .mega-text {
+  display:none;
   width: 34px;
   height: 34px;
   display: inline-block;
@@ -6414,4 +6415,9 @@ input::-ms-clear {
 
 #js-product-detail-modal-thumbnail:hover .pt-prev, #js-product-detail-modal-thumbnail:hover .pt-next {
   opacity: .8; }
+
+.main-logo  img {
+    display: block;
+    width: 98px;
+  }
 
